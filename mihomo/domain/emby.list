@@ -1,0 +1,130 @@
+  - DOMAIN-SUFFIX,hohai.eu.org,DIRECT
+  - DOMAIN-SUFFIX,saodu.asia,DIRECT
+  - DOMAIN-SUFFIX,micu.hk,DIRECT
+  - DOMAIN-SUFFIX,saodu.work,DIRECT
+  - DOMAIN-SUFFIX,audio.hsu.life,DIRECT
+  - DOMAIN-SUFFIX,yinhai.aiinyue.com,DIRECT
+  - DOMAIN-SUFFIX,speedtest-babybus.apple-cdn.net,DIRECT
+  - DOMAIN-SUFFIX,emby.my,DIRECT
+  - DOMAIN-SUFFIX,fb.ftiy.org,DIRECT
+  - DOMAIN-SUFFIX,emos.lol,DIRECT
+  - DOMAIN-SUFFIX,music.mefun.org,DIRECT
+  - DOMAIN-SUFFIX,nangua.de,DIRECT
+  - DOMAIN-SUFFIX,cauenvao.click,DIRECT
+  - DOMAIN-SUFFIX,qqpyf.top,DIRECT
+  - DOMAIN-SUFFIX,live.ottiptv.cc,DIRECT
+  - DOMAIN-SUFFIX,rjggcf.rjf37.com,DIRECT
+  - DOMAIN-SUFFIX,rjgg.xytx.org,DIRECT
+  - DOMAIN-SUFFIX,digimon.ink,DIRECT
+  - DOMAIN-SUFFIX,emby.1l1.icu,DIRECT
+  - DOMAIN-SUFFIX,dongman.theluyuan.com,DIRECT
+  - DOMAIN-SUFFIX,zeabur.app,DIRECT
+  - DOMAIN-SUFFIX,book345.com,DIRECT
+  - DOMAIN-SUFFIX,zc.mingri.site,DIRECT
+  - DOMAIN-SUFFIX,pt.btschool.club,DIRECT
+  - DOMAIN-SUFFIX,czxemby.de5.net,DIRECT
+  - DOMAIN-SUFFIX,miraiemby.com,DIRECT
+  - DOMAIN-SUFFIX,dolby.dpdns.org,DIRECT
+  - DOMAIN-SUFFIX,emby.yun,DIRECT
+  - DOMAIN-SUFFIX,gvt1.com,DIRECT
+  - DOMAIN-SUFFIX,mingzhanxue.dpdns.org,DIRECT  
+  - DOMAIN,emby.lilyya.lat,DIRECT
+  - DOMAIN,gallery.krystalc.xyz,DIRECT
+  - DOMAIN,cf.icegua.de,DIRECT
+  - DOMAIN,cf.xgua.de,DIRECT
+  - DOMAIN,a.l0323.top,DIRECT
+  - DOMAIN,cdn.oboob.cn,DIRECT
+  - DOMAIN,cdn.rjmao.com,DIRECT
+  - DOMAIN,faemby.vip,DIRECT
+  - DOMAIN,saodu6.cn,DIRECT
+  - DOMAIN,ciallo.party,DIRECT
+  - DOMAIN,cct.rjmao.com,DIRECT
+  - DOMAIN,emos.movier.ink,DIRECT
+  - DOMAIN,cdnemby.t21w2.cn,DIRECT
+  - DOMAIN,stream-1.jiedaibao.gs,DIRECT
+  - DOMAIN,s2.array2026.cc,DIRECT
+  - DOMAIN,emby.czxxs.dpdns.org,DIRECT
+  - DOMAIN,auto.embys.dpdns.org,DIRECT
+  - DOMAIN,emos.cnmbyd.xyz,DIRECT
+  - DOMAIN,emos.goldenarch.qzz.io,DIRECT
+  - DOMAIN,danmu.krystalc.top,DIRECT
+  - DOMAIN,dm.krystalc.ggff.net,DIRECT
+  - DOMAIN,emby.bwihz.cn,DIRECT
+  - DOMAIN,kds.momo.xx.kg,DIRECT
+  - DOMAIN,emby.taotu.ink,DIRECT
+  - DOMAIN,cf.goglobe.pro,DIRECT
+  - DOMAIN,saodu6.top,DIRECT
+  - DOMAIN,ap-cn02.emby.bangumi.ca,DIRECT
+  - IP-CIDR,206.212.244.23/32,📺 美西Emby,no-resolve
+  - DOMAIN-SUFFIX,5msky.com,📺 美西Emby
+  - DOMAIN-SUFFIX,younoyes.com,📺 美西Emby
+  - DOMAIN-SUFFIX,sfcj.org,📺 美西Emby
+  - DOMAIN-SUFFIX,liminalnet.com,📺 美西Emby
+  - DOMAIN-SUFFIX,mobaiemby.site,📺 美西Emby
+  - DOMAIN-SUFFIX,biliblili.uk,📺 美西Emby
+  - DOMAIN-SUFFIX,handoumedia.top,📺 美西Emby
+  - DOMAIN-SUFFIX,saturdayent.top,📺 美西Emby
+  - DOMAIN-SUFFIX,772111.xyz,📺 美西Emby
+  - DOMAIN-SUFFIX,mebimmer.de,📺 美西Emby
+  - DOMAIN-SUFFIX,emby.stieff.uk,📺 美西Emby
+  - DOMAIN,ns1e.notfounda.shop,📺 美西Emby
+  - DOMAIN,embygy.ichinosekotomi.com,📺 美西Emby
+  - DOMAIN,emby.191920.xyz,📺 美西Emby
+  - DOMAIN,emby.tropics.de5.net,📺 美西Emby
+  - DOMAIN,freestream.startspoint.com,📺 美西Emby
+  - DOMAIN,free.28.al,📺 美西Emby
+  - DOMAIN,emby.feiniu.lol,📺 美西Emby
+  - DOMAIN,lpnba.akamaized.net,📺 美西Emby
+  - DOMAIN,www-fontedecanais-tv.70nbqx57eyhq71.com,📺 美西Emby
+  - DOMAIN,niao.007.us.kg,📺 美西Emby
+  - DOMAIN,media.nijigem.by,📺 美西Emby
+  - DOMAIN,emby-cdn1.nebula-media.org,📺 美西Emby
+  - DOMAIN,m.wenjian.de,📺 美西Emby
+  - DOMAIN,test.28.al,📺 美西Emby
+  - DOMAIN,us.aemby.de,📺 美西Emby
+  - DOMAIN,emby.bangumi.ca,📺 美西Emby
+  - DOMAIN,emby.nebula-media.org,📺 美西Emby
+  - DOMAIN,embymv.link,📺 美西Emby
+  - DOMAIN,rn.chilledmelon.com,📺 美西Emby
+  - DOMAIN,d15jaxsu8r0tws.cloudfront.net,📺 美西Emby
+  - DOMAIN,eb.zzm.li,📺 美西Emby
+  - DOMAIN,viking-links.com,📺 美西Emby
+  - DOMAIN,hgemby.qzz.io,📺 美西Emby
+  - DOMAIN,111848.xyz,📺 美西Emby
+  - DOMAIN,111660.xyz,📺 美西Emby
+  - DOMAIN,media.emby.pro,📺 美西Emby
+  - DOMAIN-SUFFIX,heisi.org,📺 港新Emby
+  - DOMAIN-SUFFIX,xxlb.net,📺 港新Emby
+  - DOMAIN-SUFFIX,188766.xyz,📺 港新Emby
+  - DOMAIN-SUFFIX,tv.iill.top,📺 港新Emby
+  - DOMAIN-SUFFIX,ntd-tgc.cdn.hinet.net,📺 港新Emby
+  - DOMAIN-SUFFIX,as174.de,📺 港新Emby
+  - DOMAIN-SUFFIX,cdn.bgp.yt,📺 港新Emby
+  - DOMAIN,emby.jcnf.xyz,📺 港新Emby
+  - DOMAIN,jsq.vban.xyz,📺 港新Emby
+  - DOMAIN,cmcdn.fufuemby.top,📺 港新Emby
+  - DOMAIN,gy.smlwmv.com,📺 港新Emby
+  - DOMAIN,emby666.alien666.de5.net,📺 港新Emby
+  - DOMAIN,yuanshen.help,📺 港新Emby
+  - DOMAIN,emby.23333334.xyz,📺 港新Emby
+  - DOMAIN,101514.xyz,📺 港新Emby
+  - DOMAIN,v.chilledmelon.com,📺 港新Emby
+  - DOMAIN,fych.feiyue.lol,📺 港新Emby
+  - DOMAIN,emby.dpeak.cn,📺 港新Emby
+  - DOMAIN,bb.111848.xyz,📺 港新Emby
+  - DOMAIN,file.covh.eu.org,📺 港新Emby
+  - DOMAIN-SUFFIX,nay.007.us.kg,📺 日本Emby
+  - DOMAIN-SUFFIX,6666456.xyz,📺 日本Emby
+  - DOMAIN-SUFFIX,d01.abcj.uk,📺 日本Emby
+  - DOMAIN-SUFFIX,emby.movier.ink,📺 日本Emby
+  - DOMAIN-SUFFIX,3767483.xyz,📺 日本Emby
+  - DOMAIN-SUFFIX,emby.zn.al,📺 日本Emby
+  - DOMAIN-SUFFIX,onatoshi.114514.quest,📺 日本Emby
+  - DOMAIN-SUFFIX,public.shrekmedia.org,📺 日本Emby
+  - DOMAIN-SUFFIX,gy.meowfly.de,📺 日本Emby
+  - DOMAIN-SUFFIX,cn2gias.uk,📺 日本Emby
+  - DOMAIN,wcf.3msky.com,📺 日本Emby
+  - DOMAIN,link00.okemby.org,📺 日本Emby
+  - DOMAIN,emby.nas.edu.kg,📺 日本Emby
+  - DOMAIN,media.asubaka.de,📺 日本Emby
+  - DOMAIN,ask.ash.yt,📺 日本Emby
