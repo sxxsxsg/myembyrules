@@ -55,7 +55,6 @@
   - DOMAIN,cf.goglobe.pro,DIRECT
   - DOMAIN,saodu6.top,DIRECT
   - DOMAIN,ap-cn02.emby.bangumi.ca,DIRECT
-  - IP-CIDR,206.212.244.23/32,📺 美西Emby,no-resolve
   - DOMAIN-SUFFIX,5msky.com,📺 美西Emby
   - DOMAIN-SUFFIX,younoyes.com,📺 美西Emby
   - DOMAIN-SUFFIX,sfcj.org,📺 美西Emby
