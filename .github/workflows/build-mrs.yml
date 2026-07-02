@@ -1,17 +1,44 @@
 name: Build MRS
 
 on:
+  push:
+    paths:
+      - "mihomo/domain/*.list"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Test
+      - name: Download mihomo
         run: |
-          echo "GitHub Actions is working!"
-          ls -R
+          mkdir -p mihomo-bin
+          curl -L -o mihomo.tar.gz https://github.com/MetaCubeX/mihomo/releases/latest/download/mihomo-linux-amd64.tar.gz
+          tar -xzf mihomo.tar.gz -C mihomo-bin
+          chmod +x mihomo-bin/mihomo
+
+      - name: Build MRS
+        run: |
+          mkdir -p mihomo/mrs
+
+          for file in mihomo/domain/*.list; do
+            name=$(basename "$file" .list)
+            ./mihomo-bin/mihomo convert-ruleset domain text "$file" "mihomo/mrs/$name.mrs"
+          done
+
+      - name: Commit MRS
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add mihomo/mrs/*.mrs
+
+          git commit -m "build mrs" || exit 0
+          git push
