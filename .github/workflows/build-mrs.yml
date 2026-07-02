@@ -20,13 +20,27 @@ jobs:
       - name: Download mihomo
         run: |
           mkdir -p mihomo-bin
-          curl -L -o mihomo.tar.gz https://github.com/MetaCubeX/mihomo/releases/latest/download/mihomo-linux-amd64.tar.gz
+
+          URL=$(curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases/latest \
+            | grep browser_download_url \
+            | grep linux-amd64 \
+            | cut -d '"' -f 4 | head -n 1)
+
+          curl -L "$URL" -o mihomo.tar.gz
           tar -xzf mihomo.tar.gz -C mihomo-bin
           chmod +x mihomo-bin/mihomo
 
       - name: Build MRS
         run: |
           mkdir -p mihomo/mrs
+
+          BIN=$(find mihomo-bin -type f -name mihomo | head -n 1)
+          chmod +x "$BIN"
+
+          for file in mihomo/domain/*.list; do
+            name=$(basename "$file" .list)
+            "$BIN" convert-ruleset domain text "$file" "mihomo/mrs/$name.mrs"
+          done
 
           for file in mihomo/domain/*.list; do
             name=$(basename "$file" .list)
