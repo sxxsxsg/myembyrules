@@ -1,67 +1,41 @@
-name: Build MRS
+name: Convert Rules to MRS
 
 on:
   push:
+    branches: [main]
     paths:
-      - "mihomo/domain/*.list"
-  workflow_dispatch:
+      - 'source/**.txt'
+  workflow_dispatch:  # 允许手动触发
 
 permissions:
   contents: write
 
 jobs:
-  build:
+  convert:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout
+      - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Install dependencies
-        run: sudo apt-get update && sudo apt-get install -y curl tar
-
-      - name: Download mihomo (FIXED)
+      - name: Download mihomo binary
         run: |
-          set -e
+          curl -L -o mihomo.gz "https://github.com/MetaCubeX/mihomo/releases/latest/download/mihomo-linux-amd64.gz"
+          gunzip mihomo.gz
+          chmod +x mihomo
 
-          URL=$(curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases/latest \
-            | grep browser_download_url \
-            | grep linux-amd64 \
-            | head -n 1 \
-            | cut -d '"' -f 4)
-
-          echo "download: $URL"
-
-          curl -L "$URL" -o mihomo.tar.gz
-
-          mkdir mihomo-bin
-          tar -xzf mihomo.tar.gz -C mihomo-bin
-
-          BIN=$(find mihomo-bin -type f -name mihomo | head -n 1)
-          chmod +x "$BIN"
-
-          echo "BIN=$BIN" >> $GITHUB_ENV
-
-      - name: Build MRS
+      - name: Convert all txt to mrs
         run: |
-          set -e
-
-          mkdir -p mihomo/mrs
-
-          for file in mihomo/domain/*.list; do
-            name=$(basename "$file" .list)
-
-            echo "building $name"
-
-            $BIN convert-ruleset domain text "$file" "mihomo/mrs/$name.mrs"
+          mkdir -p rules
+          for file in source/*.txt; do
+            name=$(basename "$file" .txt)
+            echo "Converting $name..."
+            ./mihomo convert-ruleset domain text "$file" "rules/${name}.mrs"
           done
 
-      - name: Commit
+      - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          git add mihomo/mrs/*.mrs || true
-
-          git commit -m "build mrs" || exit 0
+          git add rules/*.mrs
+          git diff --staged --quiet || git commit -m "Auto-update mrs rules"
           git push
