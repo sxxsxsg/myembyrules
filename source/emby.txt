@@ -27,7 +27,6 @@ embymv.link
 rn.chilledmelon.com
 d15jaxsu8r0tws.cloudfront.net
 eb.zzm.li
-viking-links.com
 hgemby.qzz.io
 111848.xyz
 111660.xyz
@@ -43,7 +42,6 @@ media.emby.pro
 +.as174.de
 +.cdn.bgp.yt
 emby.jcnf.xyz
-jsq.vban.xyz
 cmcdn.fufuemby.top
 gy.smlwmv.com
 emby666.alien666.de5.net
@@ -67,7 +65,7 @@ file.covh.eu.org
 +.gy.meowfly.de
 +.cn2gias.uk
 wcf.3msky.com
-link00.okemby.org
++.okemby.org
 emby.nas.edu.kg
 media.asubaka.de
 ask.ash.yt
