@@ -39,8 +39,7 @@ cdn1.epicgames.com
 launcher.epicgames.com
 emby.lilyya.lat
 gallery.krystalc.xyz
-cf.icegua.de
-cf.xgua.de
+cf.697758.xyz
 a.l0323.top
 cdn.oboob.cn
 cdn.rjmao.com
@@ -64,3 +63,4 @@ emby.taotu.ink
 cf.goglobe.pro
 saodu6.top
 ap-cn02.emby.bangumi.ca
+ct.772111.xyz
