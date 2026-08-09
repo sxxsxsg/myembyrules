@@ -1,7 +1,6 @@
 +.cdn.123clouddisk.com
 +.akamaized.net
 +.egdownload.fastly-edge.com
-+.7658888.xyz
 +.hohai.eu.org
 +.saodu.asia
 +.micu.hk
