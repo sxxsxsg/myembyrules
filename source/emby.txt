@@ -72,3 +72,4 @@ emby.nas.edu.kg
 media.asubaka.de
 ask.ash.yt
 test.inemby.us.ci
+emby.sl.al
