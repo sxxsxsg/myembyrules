@@ -65,3 +65,7 @@ ap-cn02.emby.bangumi.ca
 ct.772111.xyz
 music.wenjian.de
 clun.top
+relay-sgp.signedbyme.com
+relay.nostr.moe
+relay.lovelana.org
+nostr.spacecitynode.com
