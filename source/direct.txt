@@ -69,4 +69,3 @@ relay-sgp.signedbyme.com
 relay.nostr.moe
 relay.lovelana.org
 nostr.spacecitynode.com
-cdn.605305.xyz
