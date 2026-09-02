@@ -1,3 +1,4 @@
++.krystalc.xyz
 +.cdn.123clouddisk.com
 +.akamaized.net
 +.egdownload.fastly-edge.com
