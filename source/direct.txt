@@ -70,3 +70,4 @@ relay-sgp.signedbyme.com
 relay.nostr.moe
 relay.lovelana.org
 nostr.spacecitynode.com
+emby.xuli.cc.cd
