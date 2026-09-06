@@ -73,3 +73,4 @@ media.asubaka.de
 ask.ash.yt
 test.inemby.us.ci
 +.605305.xyz
+c.emby.wtf
