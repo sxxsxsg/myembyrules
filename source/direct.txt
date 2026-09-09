@@ -71,3 +71,5 @@ relay.nostr.moe
 relay.lovelana.org
 nostr.spacecitynode.com
 emby.xuli.cc.cd
+bilibili.43992026.xyz
+l5okyats-2lruf01f.biliblili.uk
