@@ -12,7 +12,6 @@
 +.emby.my
 +.fb.ftiy.org
 +.emos.lol
-+.music.mefun.org
 +.nangua.de
 +.cauenvao.click
 +.qqpyf.top
