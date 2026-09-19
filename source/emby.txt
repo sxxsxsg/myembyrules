@@ -65,7 +65,6 @@ file.covh.eu.org
 +.public.shrekmedia.org
 +.gy.meowfly.de
 +.cn2gias.uk
-wcf.3msky.com
 +.okemby.org
 emby.nas.edu.kg
 media.asubaka.de
@@ -73,3 +72,4 @@ ask.ash.yt
 test.inemby.us.ci
 +.605305.xyz
 c.emby.wtf
+gcf.betop.uk
