@@ -33,7 +33,7 @@
 +.mingzhanxue.dpdns.org
 +.epicgames.com
 +.epicgames.dev
-tg.czxxs.dpdns.org
+tgfast.czxxs.dpdns.org
 download.epicgames.com
 cdn1.epicgames.com
 launcher.epicgames.com
